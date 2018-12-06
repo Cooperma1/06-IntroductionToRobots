@@ -34,7 +34,7 @@ def go_two_seconds():
     left_motor.start()
     time.sleep(2)
     left_motor.brake()
-
+    right_motor.start
 
 def run_test_go_inches():
     """ Tests the go_inches function. """
